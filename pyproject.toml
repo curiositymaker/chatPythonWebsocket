@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chat"
+version = "0.1.0"
+description = ""
+authors = ["curiositymaker <manavbgl@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chat", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+quart = "^0.19.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "chat:run"
