@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "chat"
+name = "chatPythonWebsocket"
 version = "0.1.0"
 description = ""
 authors = ["curiositymaker <manavbgl@gmail.com>"]
